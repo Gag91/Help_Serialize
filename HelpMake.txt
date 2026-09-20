@@ -1,0 +1,13 @@
+Compiler: gcc
+Version: std=c++26
+Output: test.exe
+
+InputFiles {
+    src/test.cpp
+}
+
+Flags {
+    -lstdc++exp
+    -Iinclude
+    -freflection
+}
