@@ -77,7 +77,7 @@ Same reflection loop, opposite direction.
 ## Build
 Requires:
 - GCC 16.1+ or a compiler with C++26 reflection support (dont try to use clang pls)
--std=c++26 -freflection -lstdc++exp
+- -std=c++26 -freflection -lstdc++exp
 
 ### Built with Help_Make:
 ```cmd
